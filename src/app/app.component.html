@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="card fill">
+        
+  <div class="card-header bg-primary text-white h2 heading">
+      {{title}}
+      <button type="button" class="btn btn-danger pull-right" *ngIf="checkLogin()"  (click)="logout()">
+          Sign out <i class="fa fa-sign-out icon-large white " ></i>
+      </button>
+  </div>
+  <div class="card-body">
+      <router-outlet></router-outlet>
+   </div> 
+</div>
+<ngx-spinner></ngx-spinner>
