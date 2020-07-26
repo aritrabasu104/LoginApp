@@ -1,10 +1,12 @@
 # LoginApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+It shows a Login page which validates the user input against constrainsts and then tries to call a remote service which will berify the basic auth credentialas provided by the user. The URL for authentication is defined fetched by http call to a local config file under assets. For demo purpose the valid username and password is ADMIN1 and ADMIN1.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Need to have NPM installed.
+Run `nmp install` followed by `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
